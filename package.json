@@ -1,0 +1,33 @@
+{
+  "name": "pizza-workspace",
+  "version": "1.0.0",
+  "description": "Site permettant de créer des pizzas",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "https-post": "^0.1.1",
+    "jsdoc": "^3.5.5",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "mongoose": "^4.12.3"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha mainTests.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuryaElroh/PizzaProject.git"
+  },
+  "author": "Surya Elroh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuryaElroh/PizzaProject/issues"
+  },
+  "homepage": "https://github.com/SuryaElroh/PizzaProject#readme"
+}
